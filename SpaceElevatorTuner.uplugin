@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1.0",
+	"SemVersion": "0.1.0",
+	"GameVersion": ">=491125",
+	"FriendlyName": "Difficulty+",
+	"Description": "Makes the Space Elevator harder: pick a cost multiplier for each project assembly phase when you create a world.",
+	"Category": "Modding",
+	"CreatedBy": "s7lver",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": true,
+	"Installed": false,
+	"RemoteVersionRange": ">=0.1.0",
+	"Modules": [
+		{
+			"Name": "SpaceElevatorTuner",
+			"Type": "Runtime",
+			"LoadingPhase": "PostDefault"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SML",
+			"Enabled": true,
+			"SemVersion": "^3.12.0"
+		}
+	]
+}
